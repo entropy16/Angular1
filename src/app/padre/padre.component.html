@@ -1,0 +1,8 @@
+<button (click)="enviarMensaje()">Enviar mensaje</button>
+<app-hijo [recibido]="mensajeHijo" (enviarPapa)="recibirSaludo($event)"></app-hijo>
+<button (click)="mostrarDato()">Mostrar input</button>
+<button pButton type="button" label="Secondary" class="p-button-secondary">Prueba PrimerNG</button>
+<input type="text" pInputText [(ngModel)]="persona.nombre"  >
+<input [(ngModel)]="persona.nombre">
+<input [(ngModel)]="persona.edad">
+<input [(ngModel)]="persona.estado">

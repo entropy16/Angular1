@@ -1,6 +1,6 @@
 export class Usuario{
-    public idUsuario: number = 0;
-    public nombre: string = "";
-    public edad: number = 0;
-    public estado: boolean = false;
+    public idUsuario: number | undefined;
+    public nombre: string | undefined;
+    public edad: number | undefined;
+    public estado: boolean | undefined;
 }
